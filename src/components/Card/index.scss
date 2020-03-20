@@ -1,0 +1,82 @@
+.Card {
+	height: 300px;
+	width: 300px;
+	border: 1px solid #cecece;
+	border-radius: 5px;
+	margin: 25px;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+	transition: box-shadow 0.2s ease;
+
+	padding: 20px;
+
+	&:hover {
+		box-shadow: #aaa 2px 2px 11px;
+	}
+
+	.Card-Body {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		.Card-Jumbotron {		
+			height: 180px;
+			width: 300px;
+
+			img {
+				width: 100%;
+				height: 100%;
+				border-radius: 2px;
+				object-fit: cover;
+				transition: 0.4s ease;
+			}
+		}
+
+		.Card-Information {
+			display: flex;
+			justify-content: space-between;
+			flex-direction: column;
+			text-align: left;
+			height: 120px;
+			padding: 10px 15px;
+
+			.Card-Title {
+				padding: 10px 0;
+				color: #4e5a5f;
+				font-weight: 600;
+			}
+
+			.Card-Description {
+				color: grey;
+				font-size: 14px;
+				line-height: 1.4;
+			}
+
+			.Card-Footer {
+				padding: 10px 0;
+				justify-content: space-between;
+				font-size: 13px;
+
+				.Link {
+					color: #3477ad;
+					text-decoration: none;
+
+					white-space: nowrap;
+					svg {
+						padding-right: 5px;
+						font-size: 10px;
+					}
+			
+					&:hover {
+						opacity: 0.8;
+						text-decoration: underline;
+						cursor: pointer;
+					}
+				}
+			}
+		}
+	}
+}
