@@ -13,7 +13,7 @@ function Cards() {
 		{
 			image: F1,
 			title: "Open Formula 1",
-			description: "A tool for tracking circuits across Formula 1 seasons.",
+			description: "Venues of Formula 1 circuits across time.",
 			demo: "https://marktoh.github.io/open-f1/",
 		},
 		{
