@@ -22,7 +22,7 @@ function Information() {
 				</div>
 				<div className="Description">
 					<div>Specializing in rich UI web development</div>
-					<div className="medium-font">Member of the board of directors at Mumbo</div>
+					<div className="medium-font">Member of the board of directors at Mumbo Inc.</div>
 					<div>Senior Software Engineer at <a className="Link" href="https://datachat.ai/" target="_blank" rel="noopener noreferrer">DataChat</a></div>
 				</div>
 				<div className="ContactInfo">
