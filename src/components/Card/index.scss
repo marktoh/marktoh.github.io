@@ -1,6 +1,7 @@
 .Card {
 	height: 300px;
 	width: 300px;
+	max-width: 60vw;
 	border: 1px solid #cecece;
 	border-radius: 5px;
 	margin: 25px;
@@ -25,6 +26,7 @@
 		.Card-Jumbotron {		
 			height: 180px;
 			width: 300px;
+			max-width: 60vw;
 
 			img {
 				width: 100%;
