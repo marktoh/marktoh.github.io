@@ -21,9 +21,8 @@ function Information() {
 					</div>
 				</div>
 				<div className="Description">
-					<div>Specializing in rich UI web development</div>
-					<div>Member of the board of directors at Mumbo Inc.</div>
 					<div>Senior Software Engineer at <a className="Link" href="https://datachat.ai/" target="_blank" rel="noopener noreferrer">DataChat</a></div>
+					<div className="small-font">Specializing in rich UI web development</div>
 				</div>
 				<div className="ContactInfo">
 						<a href="https://marktoh.github.io/info/resume.pdf" target="_blank" rel="noopener noreferrer">
