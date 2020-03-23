@@ -16,7 +16,7 @@ class Card extends React.Component<Props> {
 
 		return (
 			<div className="Card">
-				<div className="Card-Body">
+				<a className="Card-Body" href={demo} target="_blank" rel="noopener noreferrer">
 					<div className="Card-Jumbotron">
 						<img src={image} alt={title}></img>
 					</div>
@@ -34,7 +34,7 @@ class Card extends React.Component<Props> {
 							</a>
 						</div>
 					</div>
-				</div>
+				</a>
 			</div>
 		)
 	}
